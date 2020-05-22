@@ -2,13 +2,20 @@ ActiveDirectory Module is Required.
 
     Adjust Code on Line 434 -  488
 
+GUI Looks Like this:
+
+![alt text](https://raw.githubusercontent.com/FSCorrupt/PS-Employee-Exit-Script/master/gui%20(1).png)
+
+
+
 Mail Body looks like this:
 
+![alt text](https://raw.githubusercontent.com/FSCorrupt/PS-Employee-Exit-Script/master/Untitled.png)
 
 
 
- 
-
+Feature List:
+    
     Downloading CMTrace for Log viewing if its not present.
     Disable AD Account
     Remove all Groups (except domain users)
