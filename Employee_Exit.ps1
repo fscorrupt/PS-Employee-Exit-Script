@@ -1049,8 +1049,8 @@ $psCmdADUL = [PowerShell]::Create().AddScript({
       #Tools
       $cmtrace = 'xxxxxxxxxxxxxxxxxxxxxxx' #Path to CMtrace.exe
       #O365
-      $adminUPN = 'xxxxxxxxxxxxxxxxxxxxxxx' #Global Admin or a User that can make desired Changes, you also can edit this step with Get Credential on Line: 475 (then you have to delete this variable from here)
-      $PW = 'xxxxxxxxxxxxxxxxxxxxxxx' | ConvertTo-SecureString -Key (1..16) #Encrypted Password, you also can edit this step with Get Credential on Line: 475 (then you have to delete this variable from here)
+      $adminUPN = 'xxxxxxxxxxxxxxxxxxxxxxx' #Global Admin or a User that can make desired Changes, you also can edit this step with Get Credential on Line: 508 (then you have to delete this variable from here)
+      $PW = 'xxxxxxxxxxxxxxxxxxxxxxx' | ConvertTo-SecureString -Key (1..16) #Encrypted Password, you also can edit this step with Get Credential on Line: 508 (then you have to delete this variable from here)
 
       #######################################################################################################
       #########################################Adjust Variables END!#########################################
